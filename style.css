@@ -8,16 +8,34 @@ body,html {
   font-family: sans-serif;
 }
 
+header {
+  margin: auto;
+  text-align: center;
+}
+
+.headerImage {
+  width: 260px;
+  height:auto;
+  margin-top: 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: rgb(45, 45, 45);
+  letter-spacing: 2px;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
+  margin: 40px;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(154, 154, 154);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -26,24 +44,26 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(0, 0, 0, 0.112);
 }
 
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
+  background: #ffe5a3;
   box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: sans-serif;
+  color: rgb(45, 45, 45);
 }
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: rgb(45, 45, 45);
 }
